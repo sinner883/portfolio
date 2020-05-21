@@ -16,6 +16,9 @@ function App() {
         <img className='item' src={js} alt='pict'></img>
         <img className='item' src={github} alt='pict'></img>
       </div>
+      <div>
+        <h1>About Me</h1>
+      </div>
     </div>
   );
 }
