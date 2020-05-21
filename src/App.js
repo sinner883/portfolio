@@ -10,10 +10,12 @@ function App() {
   return (
     <div className="App">
       <h1>Max Tech Portfolio</h1>
-      <img src={css} alt='pict'></img>
-      <img src={html} alt='pict'></img>
-      <img src={js} alt='pict'></img>
-      <img src={github} alt='pict'></img>
+      <div className='container'>
+        <img className='item' src={css} alt='pict'></img>
+        <img className='item' src={html} alt='pict'></img>
+        <img className='item' src={js} alt='pict'></img>
+        <img className='item' src={github} alt='pict'></img>
+      </div>
     </div>
   );
 }
